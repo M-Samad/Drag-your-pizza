@@ -1,0 +1,87 @@
+* {
+  background-color: white;
+}
+.container-bases {
+  display: flex;
+  justify-content: center;
+  display: flex;
+}
+.container-topping {
+  display: flex;
+  justify-content: center;
+  display: none;
+}
+
+.bases {
+  display: inline-block;
+  justify-content: center;
+  border: 5px solid black;
+  border-radius: 15px;
+  margin: 0 15px 0 15px;
+  font-size: xx-large;
+  font-weight: 600;
+  cursor: pointer;
+}
+.topping {
+  display: inline-block;
+  justify-content: center;
+  border: 5px solid black;
+  border-radius: 15px;
+  margin: 0 15px 0 15px;
+  font-size: x-large;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.pizza-base-1 {
+  width: 200px;
+  height: 200px;
+  background-image: url(images/pizza-base-1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.pizza-base-2 {
+  width: 200px;
+  height: 200px;
+  background-image: url(images/pizza-base-2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.pizza-topping-1 {
+  width: 200px;
+  height: 200px;
+  background-image: url(images/onion-top.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.pizza-topping-2 {
+  width: 200px;
+  height: 200px;
+  background-image: url(images/corn-top.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.pizza-topping-3 {
+  width: 200px;
+  height: 200px;
+  background-image: url(images/capsicum-top.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.progress-pizza {
+  margin: 50px;
+  border: 5px solid black;
+  width: 300px;
+  height: 300px;
+  border-radius: 900px;
+  padding: 12vh 0 0 8vw;
+}
+.container-pizza {
+  display: flex;
+  justify-content: center;
+}
+.final-text {
+  font-size: xx-large;
+  font-weight: 600;
+  display: none;
+}
